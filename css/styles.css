@@ -1,0 +1,135 @@
+/**** TAG CSS *****/
+body{
+  text-align: center;
+  margin: 0 auto;
+
+  font-family: 'Maven Pro', sans-serif;
+
+  line-height: 2;
+}
+span{
+  text-decoration: underline;
+}
+hr{
+  width: 10%;
+  color: #EAF6F6;
+  border-width:10px;
+  border-style: dashed none none none;
+
+
+}
+p{
+  margin: 0 auto;
+  width: 50%;
+}
+a{
+  color: #11999E;
+}
+div{
+
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+}
+h2{
+
+  color: #66BFBF;
+}
+
+
+
+
+/**** Class CSS *****/
+.copyrights{
+  margin: 0 auto;
+  color: #FFFFFF;
+  width: 20%;
+}
+.header{
+  padding: 10px;
+  background-color: #EAF6F6;
+
+
+
+}
+.name{
+  font-size: 500%;
+  font-family: 'Shadows Into Light', cursive;
+  color: #66BFBF;
+}
+.subtext{
+  font-size: 200%;
+  color: #66BFBF;
+}
+.bio{
+
+    color: #40514E;
+  font-size: 20px;
+}
+.skilldescription{
+  color: #40514E;
+}
+.firstcloud{
+  position: absolute;
+  right: 300px;
+}
+.secondcloud{
+  left: 300px;
+
+    position: absolute;
+}
+.profileimage{
+  border-radius: 150%;
+
+  height: 150px;
+  width: 100px;
+}
+.skillrow{
+  width: 40%;
+}
+.middlecontainer{
+  width: 70%;
+}
+
+.myButton {
+  margin: 10px;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#EAF6F6;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.footer{
+  width: 100%;
+  background-color: #66BFBF;
+  height: 100px;
+  text-align: center;
+  position: relative;
+  padding-bottom: 0;
+
+}
+
+.firstskill{
+
+    margin: 20px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
